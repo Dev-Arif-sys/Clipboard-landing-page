@@ -1,0 +1,186 @@
+*{
+margin: 0;
+}
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    background: no-repeat url(/images/bg-header-mobile.png);
+    background-position:top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.mainContainer{
+    width: 70%;
+    max-width: 1550px;
+    margin: 0 auto;
+}
+
+.container,.container2, .footer{
+   width: 100%;
+   max-width: 600px;
+   margin: 0 auto;
+   text-align: center;
+  margin-top: 100px;
+}
+.header-text{
+    margin-bottom: 30px;
+}
+.image-device img{
+width: 100%;
+max-width:650px;
+}
+.button{
+    margin-bottom: 100px;
+}
+.button button{
+    padding: 15px 30px;
+    width: 90%;
+    max-width: 250px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    
+}
+.button .one{
+    background-color: hsl(171, 66%, 44%);
+}
+.button .two{
+    background-color: hsl(233, 100%, 69%);
+    margin-top: 2em;
+}
+
+/*keep track*/
+
+
+.containerPic{
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.service-container .service{
+    margin-top: 40px;
+    line-height: 1em;
+}
+.container .clipboard-text{
+    margin-bottom: 30px;
+    line-height: 1.2em;
+}
+.tools *+*{
+    margin-top: 50px;
+}
+ .tool{
+
+line-height: 1em;
+}
+.tool *+*{
+    margin-top: 1em;
+}
+
+.container2 .icons *{
+    margin-top: 40px;
+    width: 100px;
+}
+.text-margin{
+    margin-bottom: 40px;
+    line-height: 1.9em;
+}
+.text-margin >h
+
+ .footer-text img{
+    height: 50px;
+    width: 50px;
+}
+.footer-text *+*{
+margin-top: 10px;
+}
+
+.social-icons{
+    margin-top: 40px;
+    
+}
+.social-icons *+*{
+    margin-left: 20px;
+}
+h1,h2{
+    color:  hsl(210, 10%, 33%);
+}
+p{
+    color: hsl(201, 11%, 66%);
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer{
+    background-color: hsl(180, 6%, 90%);
+    
+    padding: 20px 0;
+}
+
+
+@media screen and (min-width:650px){
+    body{
+        font-family: 'Bai Jamjuree', sans-serif;
+        background: no-repeat url(/images/bg-header-desktop.png);
+        background-position:top;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .button *+*{
+        margin-left: 10px;
+    }
+    .containerPic{
+        width: 80%;
+        margin: 0;
+        text-align: left;
+    }
+    .containerPic>*{
+        margin-left: -2em;
+    }
+    .flex{
+        flex-direction: row;
+        grid-gap: 15px;
+        justify-content: center;
+    }
+    .image-device{
+        width: 190%;
+        margin-left: -250px;
+    }
+    .service-container{
+        margin-left: 60px;
+        width: 90%;
+    }
+    .container2{
+        max-width: 1200px;
+    }
+    .tools *+*{
+        margin-top: 0;
+        margin-left: 20px;
+    }
+
+    .container2 .icons *{
+        margin-top: 0 px;
+        margin-left: 60px;
+        width: 150px;
+       
+    }
+    .footer{
+        width: 100%;
+        max-width: 1800px;
+        
+        margin: 0 ;
+        
+       margin-top: 100px;
+     }
+    .footer-container{
+        justify-content:space-around;
+    }
+    .footer-text *+*{
+        margin-left: 70px;
+    }
+    .footer-text *+* *+*{
+        margin-left: 0;
+    }
+}
